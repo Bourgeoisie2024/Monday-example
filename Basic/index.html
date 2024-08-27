@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page.</title>
+</head>
+<body>
+    <p>This is my first Web Page</p>
+    <br />
+    <h1>Types of Heading</h1>
+    <h1>This is a heading</h1>
+    <h2>This is a heading</h2>
+    <h3>This is a heading</h3>
+    <h4>This is a heading</h4>
+    <h5>This is a heading</h5>
+    <h6>This is a heading</h6>
+    <br />
+    <p>This is a paragraph</p>
+    <br />
+    <h2>How to add a link for other web addresses and emailing</h2>
+    <a href="https://nimala.ng" target="_blank">Visit Nimala.com</a>
+    <!--A link often have blue color once it is attached to a text as shown above, target is used to ensure the page load on this same web page when a user click-->
+    <br />
+    <a href="mailto:nimalaconsult@gmail.com" target="_blank">send email to nimalaconsult@gmail.com</a>
+    <!--The above is used to set a link for mailing-->
+    <br />
+    <img src="pexels-pixabay-36843.jpg" width="500" height="500" alt="Descriptive alternative texts form your image">
+    <img src="https://images.pexels.com/photos/40803/lion-animal-predator-big-cat-40803.jpeg?auto=compress&cs=tinysrgb&w=600" width="600" height="600" alt="Descriptive alternative texts form your image">
+    <!--src is for the source of your image and alt is for words to be shown when your image does not load well for user to know what image is there-->
+    <br />
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ol>
+    <ol type="a" start="6">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ol>
+    <!--The above first ordered list is orderly and by default uses 1,2, etc an the other with type="" is used to set it to other options but this is not possible for unordered list-->
+    <!--start="" is used to determine when the counter starts in the alphabet-->
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ul>
+    <br />
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+    </table>
+    <br />
+
+    <p>CREATE A FORM</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br />
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+        <br />
+        <input type="submit" value="submit">
+        <br />
+        <button>Submit</button>
+    </form>
+    <!--The button tags used are to show 2 different ways of adding a button to a form or webpage-->
+    <br />
+</body>
+</html>
